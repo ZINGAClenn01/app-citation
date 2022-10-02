@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 2vw;
+}
+body{
+    /* background: linear-gradient(rgb(159, 159, 247), black, ); */
+    background: url(./components/Pages/images/branding-4.jpg);
+}
+
+a{
+    text-decoration: none;
+    font-size: 1vw;
+    color: antiquewhite;
+    width: 8vw;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.5vw;
+}
+
+li{
+    border: solid 0.2vw black;
+    border-radius: 20vw;
+    width: 10vw;
+    height: 6vh;
+    
+}li:hover{
+    text-decoration: none;
+    font-size: 1vw;
+    color: antiquewhite;
+    width: 10vw;
+    height: 6vh;
+    background-color: blueviolet;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 2vw;
+    background-color: rgb(131, 131, 221);
+}
+
+.lien{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title{
+    color: aliceblue;
+    margin-bottom: 3vw;
+    margin: auto;
+    height: 5vw;
+    background-color: rgb(131, 131, 221);
+}
+
+.input-nav{
+    background-color: rgb(216, 216, 216);
+    border-radius: 0.5vw;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+.center{
+    text-align: center;
+}
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.row{
+    display: flex;
+}
+.padding{
+    padding-left: 10vw;
+}
+.pad-top{
+    padding-top: 5vh;
+}
+.btn{
+    padding: 1vw;
+    margin-top: 3vw;
+    width: 10vw;
+    background-color: green;
+    border-radius: 0.75vw;
+}
+
+.citinput label{
+    margin-bottom: 2vw;
+}
+.citinput input{
+    padding: 1vw;
+    width: 60vw;
+    border-radius: 0.75vw;
+}
+.add{
+    margin-top: 0.5vw;
+}
